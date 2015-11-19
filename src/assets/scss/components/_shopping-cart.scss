@@ -1,0 +1,48 @@
+.shopping-cart {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 10px rgba(#000, 0.25);
+  z-index: 100;
+  display: none;
+
+  > .row {
+    position: relative;
+  }
+}
+
+.hinge-in {
+  @include mui-hinge(
+    $state: in,
+    $from: top,
+    $duration: 0.15s
+  );
+}
+
+.hinge-out {
+  @include mui-hinge(
+    $state: out,
+    $from: top,
+    $duration: 0.15s
+  );
+}
+
+@include mui-series {
+  .shopping-cart-item-1 {
+    @include mui-queue(0.25s, -0.2s, fade, slide($direction: down));
+  }
+  .shopping-cart-item-2 {
+    @include mui-queue(0.25s, -0.2s, fade, slide($direction: down));
+  }
+  .shopping-cart-item-3 {
+    @include mui-queue(0.25s, -0.2s, fade, slide($direction: down));
+  }
+  .shopping-cart-item-4 {
+    @include mui-queue(0.25s, -0.2s, fade, slide($direction: down));
+  }
+  .shopping-cart-item-5 {
+    @include mui-queue(0.25s, -0.2s, fade, slide($direction: down));
+  }
+}

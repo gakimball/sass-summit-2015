@@ -1,0 +1,17 @@
+// jQuery
+//   chain: true
+//   prefix: 'mui-'
+.fade-in.mui-enter {}
+.fade-in.mui-enter.mui-enter-active {}
+
+// Angular
+//   chain: true
+//   prefix: 'ng-'
+.fade-in.ng-enter {}
+.fade-in.ng-enter.ng-enter-active {}
+
+// React
+//   chain: false
+//   prefix: ''
+.fade-in-enter {}
+.fade-in-enter.fade-in-enter-active {}
