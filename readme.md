@@ -1,15 +1,6 @@
-# ZURB Template
+# Sass Summit Talk
 
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
-
-- Handlebars HTML templates with Panini
-- Sass compilation and prefixing
-- JavaScript concatenation
-- Built-in BrowserSync server
-- For production builds:
-  - CSS compression
-  - JavaScript compression
-  - Image compression
+The demo files for my Sass Summit talk on November 19, 2015. The talk was about the Motion UI library.
 
 ## Installation
 
@@ -18,36 +9,16 @@ To use this template, your computer needs:
 - [NodeJS](https://nodejs.org/en/) (0.10 or greater)
 - [Git](https://git-scm.com/)
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
-
-### Using the CLI
-
-Install the Foundation CLI with this command:
+Now download the code:
 
 ```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template zurb
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
+git clone https://github.com/gakimball/sass-summit-2015
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd sass-summit-2015
 npm install
 bower install
 ```
@@ -57,5 +28,3 @@ Finally, run `npm start` to run Gulp. Your finished site will be created in a fo
 ```
 http://localhost:8000
 ```
-
-To create compressed, production-ready assets, run `npm run build`.
